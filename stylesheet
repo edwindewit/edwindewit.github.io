@@ -717,6 +717,7 @@ html::-webkit-scrollbar-track {
     width: 22px;
 }
 
+
 .theme-blackout .dark-mode-icon {
     display: none;
 }
@@ -733,5 +734,23 @@ html::-webkit-scrollbar-track {
     display: flex;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .notion-text__content { font-size: 20px}
+.notion-list-item { font-size: 20px}
+:root {
+    --max-width: 800px!important;
+}
 
