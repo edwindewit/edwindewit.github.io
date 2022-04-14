@@ -183,8 +183,8 @@ h1.notion-heading, h2.notion-heading, h3.notion-heading {
 }
 
 h1.notion-heading {
-    font-size: 36px !important;
-    font-weight: 400 !important;
+    font-size: 44px !important;
+    font-weight: 700 !important;
 }
 
 h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
@@ -192,13 +192,13 @@ h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
 }
 
 h2.notion-heading {
-    font-size: 28px !important;
-    font-weight: 300 !important;
+    font-size: 36px !important;
+    font-weight: 600 !important;
 }
 
 h3.notion-heading {
-    font-size: 20px !important;
-    font-weight: 100 !important;
+    font-size: 24px !important;
+    font-weight: 500 !important;
 }
 
 .notion-root > h1.notion-heading:first-of-type {
@@ -206,7 +206,7 @@ h3.notion-heading {
     font-weight: 500 !important;
     margin-top: 0px !important;
     margin-bottom: 15px !important;
-    max-width: 600px !important;
+    max-width: 600pxpi !important;
     letter-spacing: -1px !important;
 }
 
@@ -733,5 +733,5 @@ html::-webkit-scrollbar-track {
     display: flex;
 }
 
-.notion-text__content { font-size: 18px}
+.notion-text__content { font-size: 20px}
 
