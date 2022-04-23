@@ -190,9 +190,6 @@ h1.notion-heading {
   -webkit-text-fill-color: transparent;
 }
 
-h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
-    font-weight: 300 !important;
-}
 
 h2.notion-heading {
     font-size: 36px !important;
@@ -204,18 +201,6 @@ h3.notion-heading {
     font-weight: 500 !important;
 }
 
-.notion-root > h1.notion-heading:first-of-type {
-    font-size: 52px !important;
-    font-weight: 500 !important;
-    margin-top: 0px !important;
-    margin-bottom: 15px !important;
-    max-width: 600pxpi !important;
-    letter-spacing: -1px !important;
-}
-
-.notion-root > h1.notion-heading:first-of-type .notion-semantic-string {
-    line-height: 1 !important;
-}
 
 .notion-toggle.bg-gray, .notion-collection__header {
     display: none !important;
@@ -945,9 +930,7 @@ h1.notion-heading {
     font-weight: 700 !important;
 }
 
-h1.notion-heading strong, h2.notion-heading strong, h3.notion-heading strong {
-    font-weight: 300 !important;
-}
+
 
 h2.notion-heading {
     font-size: 36px !important;
@@ -959,18 +942,6 @@ h3.notion-heading {
     font-weight: 500 !important;
 }
 
-.notion-root > h1.notion-heading:first-of-type {
-    font-size: 52px !important;
-    font-weight: 500 !important;
-    margin-top: 0px !important;
-    margin-bottom: 15px !important;
-    max-width: 600pxpi !important;
-    letter-spacing: -1px !important;
-}
-
-.notion-root > h1.notion-heading:first-of-type .notion-semantic-string {
-    line-height: 1 !important;
-}
 
 .notion-toggle.bg-gray, .notion-collection__header {
     display: none !important;
