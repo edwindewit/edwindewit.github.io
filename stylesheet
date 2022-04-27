@@ -13,7 +13,6 @@
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .4) !important;
-    --color-pill-gray: #151517 !important;
     --scrollbar-color: #383838 !important;
     --color-text-blue: #121BFA !important;
 
@@ -30,7 +29,6 @@
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .4) !important;
-    --color-pill-gray: #151517 !important;
     --scrollbar-color: #383838 !important;
 }
 
@@ -45,7 +43,6 @@
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .1) !important;
-    --color-pill-gray: #151517 !important;
     --scrollbar-color: #383838 !important;
 }
 
@@ -60,7 +57,6 @@
     --color-cta-text: #F5F2EE !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .1) !important;
-    --color-pill-gray: #e9e9e9 !important;
     --scrollbar-color: #D1D1D1 !important;
 }
 
@@ -73,7 +69,6 @@
     --color-border-default: #d2cec7 !important;
     --color-cta-background: #131414 !important;
     --color-cta-text: #F5F2EE !important;
-    --color-pill-gray: #e9e9e9 !important;
     --scrollbar-color: #D1D1D1 !important;
 }
 
@@ -755,7 +750,6 @@ html::-webkit-scrollbar-track {
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .4) !important;
-    --color-pill-gray: #151517 !important;
     --scrollbar-color: #383838 !important;
 }
 
@@ -769,8 +763,7 @@ html::-webkit-scrollbar-track {
     --color-cta-background: #f2f2f2 !important;
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
-    --color-navbar-cta-bg: rgba(0, 0, 0, .4) !important;
-    --color-pill-gray: #151517 !important;
+    --color-navbar-cta-bg: rgba(0, 0, 0, .4) !important
     --scrollbar-color: #383838 !important;
 }
 
@@ -785,7 +778,6 @@ html::-webkit-scrollbar-track {
     --color-cta-text: #2E2D2D !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .1) !important;
-    --color-pill-gray: #151517 !important;
     --scrollbar-color: #383838 !important;
 }
 
@@ -800,7 +792,6 @@ html::-webkit-scrollbar-track {
     --color-cta-text: #F5F2EE !important;
     --color-navbar-cta-text: var(--color-text-default) !important;
     --color-navbar-cta-bg: rgba(0, 0, 0, .1) !important;
-    --color-pill-gray: #e9e9e9 !important;
     --scrollbar-color: #D1D1D1 !important;
 }
 
@@ -813,7 +804,6 @@ html::-webkit-scrollbar-track {
     --color-border-default: #d2cec7 !important;
     --color-cta-background: #131414 !important;
     --color-cta-text: #F5F2EE !important;
-    --color-pill-gray: #e9e9e9 !important;
     --scrollbar-color: #D1D1D1 !important;
 }
 
@@ -1545,10 +1535,18 @@ Added styling:
 
 :root {
 --color-pill-yellow:  !important;
+--color-pill-gray: #e9e9e9 !important;
 --color-pill-orange:#FFCB8F !important;
 --color-pill-blue: #8C97FF !important; 
 --color-pill-green: #9CFFA0 !important;
 --color-pill-purple:
 --color-pill-pink:
 --color-pill-red: #FF8957!important;
+}
+
+
+/*---------  /Notion table heading color ---------*/
+
+.notion-collection-table__head-cell {
+  color: var(--color-text-default) !important
 }
