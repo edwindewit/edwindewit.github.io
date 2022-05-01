@@ -650,7 +650,7 @@ html::-webkit-scrollbar-track {
 
 .notion-text__content { 
       font-size: 20px;
-      margin-bottom: 8px;
+      margin-bottom: 12px;
 }
 
 .notion-text-content { font-size: 2px}
