@@ -764,3 +764,12 @@ a.notion-link.link {
   color: #1B8BFF;!important
 } 
 
+
+.notion-collection-list__item {
+    padding: 9px !important;
+    border: 1.5px solid var(--color-border-default);
+    border-radius: var(--border-radius) !important;
+    transition: background .2s ease !important;
+    margin: 5px 0px !important;
+}
+
