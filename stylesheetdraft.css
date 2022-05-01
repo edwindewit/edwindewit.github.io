@@ -682,7 +682,7 @@ html::-webkit-scrollbar-track {
   overflow: visible!important;
   margin: 0px!important;
   flex-grow: 1!important;
-  background: #E8E8E8;!important;
+  background: #E8E8E8!important;
 }
 
 .notion-callout h1{
