@@ -682,8 +682,7 @@ html::-webkit-scrollbar-track {
   overflow: visible!important;
   margin: 0px!important;
   flex-grow: 1!important;
-  background: #E8E8E8;
-
+  background: #E8E8E8;!important;
 }
 
 .notion-callout h1{
@@ -698,12 +697,10 @@ html::-webkit-scrollbar-track {
 
 .notion-callout h3{
   text-align: center!important;
-
 }
 
 .notion-callout p{
   text-align: center!important;
-
 }
 
 .notion-callout__icon {
@@ -719,6 +716,9 @@ html::-webkit-scrollbar-track {
       opacity:1!important;
 }
 
+.notion-image.normal{
+  align-self: center !important;
+}
 
 /*---------  /Notion pill. stying ---------*/
 
