@@ -18,7 +18,7 @@
     --color-text-default: #FFFFFF !important;
     --color-hover-default: rgba(125, 125, 125, 0.4) !important;
     --color-bg-glass-default: rgb(34 34 34/70%) !important;
-    --color-border-default: #ffffff !important;
+    --color-border-default: rgba(255, 255, 255, 1); !important;
     --color-cta-background: #f2f2f2 !important;
     --color-cta-text: #ffffff !important;
     --color-navbar-cta-text: #ffffff !important;
