@@ -7,7 +7,7 @@
     --max-width: 900px !important;
     --theme-gradient: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 90%) !important;
     --border-radius: 15px !important;
-    --color-navbar-cta-text: rgba(255, 248, 248, 1)  !important 
+    --color-navbar-cta-text: rgba(255, 248, 248, 1) !important; 
     --color-navbar-cta-bg: #4189F7 !important;
 }
 
