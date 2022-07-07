@@ -2,6 +2,8 @@
 
 
 :root {
+    --color-border-default: rgba(255, 255, 255, 1); !important;
+    --color-border-default
     --color-card-bg: transparent !important;
     --bg-opacity: .8 !important;
     --max-width: 900px !important;
@@ -9,16 +11,11 @@
     --border-radius: 15px !important;
     --color-navbar-cta-text: rgba(255, 248, 248, 1) !important; 
     --color-navbar-cta-bg: #4189F7 !important;
-}
-
-
-.theme-blackout body {
     --color-bg-default: #000000 !important;
     --theme-gradient: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 1) 98%) !important;
     --color-text-default: #FFFFFF !important;
     --color-hover-default: rgba(125, 125, 125, 0.4) !important;
     --color-bg-glass-default: rgb(34 34 34/70%) !important;
-    --color-border-default: rgba(255, 255, 255, 1); !important;
     --color-cta-background: #f2f2f2 !important;
     --color-cta-text: #ffffff !important;
     --color-navbar-cta-text: #ffffff !important;
@@ -27,6 +24,7 @@
     --color-text-blue: #121BFA !important;
     --color-text-brown: #ffffff !important;
 }
+
 
 
 body {
